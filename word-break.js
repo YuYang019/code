@@ -3,8 +3,8 @@
 // s = "leetcode", wordDict = ["leet", "code"] true
 // s = "catsandog", wordDict = ["cats", "dog", "sand", "and", "cat"] false
 
-// dp[i] = dp[i - j] && ss.has(sub) / sub = str.slice(j, i)
-// 对于
+// dp[i] = dp[j] && ss.has(sub) / sub = str.slice(j, i)
+// i 是字符数，不是索引
 
 function fn(str, dict) {}
 
